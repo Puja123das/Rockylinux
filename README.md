@@ -8,31 +8,37 @@ To start this handson lab,you need following resources.
 - Step 1 : Install pre-requisite software packages
 - Step 2 : Configure environment variables
 - Step 3: Configure Jenkins Software Repository
--Step 4: Configure Jenkins Key
--Step 5: Install Jenkins
--Step 6: start the Jenkins Service Persistantly
--Step 7: Install the necessary plugins
--Step 8: Global Tools Settings - In Jenkins Console - JAVA , MAVEN, GIT
+- Step 4: Configure Jenkins Key
+- Step 5: Install Jenkins
+- Step 6: start the Jenkins Service Persistantly
+- Step 7: Install the necessary plugins
+- Step 8: Global Tools Settings - In Jenkins Console - JAVA , MAVEN, GIT
 *******************************************************************************************************************
-Step 1 : Install pre-requisite software packages
+- Step 1 : Install pre-requisite software packages
 
 ```
 yum install java-1.8.0-openjdk-devel
 ```
-yum install vim 
-yum install wget 
-yum install git -y
+yum install vim wget  git -y
+```
 systemctl stop firewalld;systemctl disable firewalld
+```
 wget https://archive.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+```
 tar xvf apache-maven-3.5.4-bin.tar.gz
+```
 mv apache-maven-3.5.4  /usr/local/apache-maven
+```
 
 *******************************************************************************************************************
-Step 2 : Configure environment variables
+- Step 2 : Configure environment variables
+```
 
 vim ~/.bash_profile
+```
 
-In this file
+- In this file
+```
 
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0
 export JRE_HOME=/usr/lib/jvm/java-1.8.0/jre
@@ -42,35 +48,41 @@ export M2=$M2_HOME/bin
 export PATH=$M2:$PATH
 
 source ~/.bash_profile
+```
 *******************************************************************************************************************
 
-Check Maven Build Tool Version
+- Check Maven Build Tool Version
+```
 
 mvn -version
+```
 
 
 *******************************************************************************************************************
-Step 3: Configure Jenkins Software Repository
+- Step 3: Configure Jenkins Software Repository
 
-
+```
 wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+```
 
 *******************************************************************************************************************
-Step 4: Configure Jenkins Key
+- Step 4: Configure Jenkins Key
 
-
+```
 rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+```
 *******************************************************************************************************************
-Step 5: Install Jenkins
-
+- Step 5: Install Jenkins
+```
 
 yum install jenkins -y
-
+```
 *******************************************************************************************************************
-Step 6: start the Jenkins Service Persistantly
+- Step 6: start the Jenkins Service Persistantly
 
-
+```
 systemctl restart jenkins;systemctl enable jenkins;systemctl status jenkins
+```
 *******************************************************************************************************************
 
 
@@ -81,13 +93,13 @@ http://<jenkins Server IP >:8080/
 
 *******************************************************************************************************************
 
-Step 7: Install the necessary plugins
+- Step 7: Install the necessary plugins
 
 The following plugins needs to be installed
 
-dashboard view
-Build Pipeline
-Deploy to container
-Email Extension Template
+- dashboard view
+- Build Pipeline
+- Deploy to container
+- Email Extension Template
 *******************************************************************************************************************
-Step 8: Global Tools Settings - In Jenkins Console - JAVA , MAVEN, GIT
+- Step 8: Global Tools Settings - In Jenkins Console - JAVA , MAVEN, GIT
