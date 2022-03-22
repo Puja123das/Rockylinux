@@ -50,8 +50,12 @@ export M2_HOME=/usr/local/apache-maven
 export M2=$M2_HOME/bin 
 export PATH=$M2:$PATH
 ```
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> cf930b607d6c2c1b6b83f34f5e6fc5931543eef4
 
+```
 source ~/.bash_profile
 ```
 
