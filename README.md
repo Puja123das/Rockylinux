@@ -18,20 +18,24 @@ To start this handson lab,you need following resources.
 
 ```
 yum install java-1.8.0-openjdk-devel
+
 ```
 yum install vim wget  git -y
+
 ```
 systemctl stop firewalld;systemctl disable firewalld
+
 ```
 wget https://archive.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+
 ```
 tar xvf apache-maven-3.5.4-bin.tar.gz
-```
-mv apache-maven-3.5.4  /usr/local/apache-maven
-```
-
 
 ```
+mv apache-maven-3.5.4  /usr/local/apache-maven```
+
+
+
 *******************************************************************************************************************
 - Step 2 : Configure environment variables
 ```
@@ -49,11 +53,10 @@ export M2=$M2_HOME/bin
 export PATH=$M2:$PATH
 ```
 
-```
-```
+
 source ~/.bash_profile
 
-```
+
 *******************************************************************************************************************
 
 - Check Maven Build Tool Version
