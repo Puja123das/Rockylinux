@@ -28,9 +28,14 @@ Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization
 - 📫 How to reach me: mounika@cloudnloud.com.
 - 📫 How to reach me Only Whatsapp : +91-8939984529.
 
-### Find All Cloud/DevOps Architect Trainings Learning LAB Pre-Requisites :
+### How to install and configure Jenkins in Rocky Linux :
 👇
-  * Refer -  https://github.com/cloudnloud/Learning-RoadMap/blob/main/pre-requisities.MD
+  * Refer -  https://github.com/cloudnloud/Rockylinux/blob/main/Jenkins-Installation.md
+
+### How to install and configure Jenkins in Rocky Linux :
+👇
+  * Refer -  https://github.com/cloudnloud/Rockylinux/blob/main/Artifactory%20and%20Tomcat%20Installation.md
+  
 
 ### Find All Cloud/DevOps Architect Trainings with Step-by-Step Handson with Use cases:
 - Click below Picture 👇
@@ -38,7 +43,7 @@ Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization
 [![Watch the video](https://github.com/cloudnloud/meetup/blob/main/cover.png)](https://www.youtube.com/channel/cloudnloud)
 
 <h3 align="left">Connect with Me:</h3>
-<a href="https://linkedin.com/in/vijaystack" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cloudnloud" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/mounistack/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cloudnloud" height="30" width="40" /></a>
 
 
 <h3 align="left">Connect with Us to know your talents:</h3>
