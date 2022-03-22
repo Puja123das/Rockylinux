@@ -1,11 +1,11 @@
 ### Hi there 👋, I'm Mounika Kanda
 
-#### Learn-Grow-Support Cancer Children
+#### Cloudnloud Tech Community
 
 
-![Learn-Grow-Support Cancer Children](https://github.com/cloudnloud/meetup/blob/main/cnl.png)
+![Learn-Grow-Invite your friends](https://github.com/cloudnloud/Rockylinux/blob/main/Cloudnloud-Community-banner.png)
 
-Past 11 years Cloudnloud Cancer NGO helped many IT professionals to learn niche technologies with real-time use cases in their own lab. We strongly believe the more we fail in our own lab, the more we are confident in the real-time scenarios.
+Past 11 years Cloudnloud Tech Community helped many IT professionals to learn niche technologies with real-time use cases in their own lab. We strongly believe the more we fail in our own lab, the more we are confident in the real-time scenarios.
 
 ### Skills: 
 
@@ -23,8 +23,7 @@ Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization
 - 💬 Ask me about Any Europe Visa Sponsorship Related.
 - 💬 Ask me about Any Solution Architecture Related.
 - 😄 Pronouns: you can call me as Cloud Crusader.
-- 🙏 I’m looking for more hands in this cloudnloud Cancer NGO initiatives.
-- 🙏 Join with me on this Children Cancer NGO initiatives.
+- 🙏 I’m looking for more hands in this cloudnloud Tech Community initiatives.
 - 📫 How to reach me: mounika@cloudnloud.com.
 - 📫 How to reach me Only Whatsapp : +91-8939984529.
 
