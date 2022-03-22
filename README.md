@@ -1,121 +1,50 @@
-To start this handson lab,you need following resources.
+### Hi there 👋, I'm Mounika Kanda
 
-1. Google cloud (or any other cloud or some VM's from your local machine).
-2. Jenkins VM should have 2 CPU / 4 GB memory / 40 gb Disk. Also Install Rocky linux in this machine.
-3. Make sure you have root access or root login credentials.
-
-*******************************************************************************************************************
-- Step 1 : Install pre-requisite software packages
-- Step 2 : Configure environment variables
-- Step 3: Configure Jenkins Software Repository
-- Step 4: Configure Jenkins Key
-- Step 5: Install Jenkins
-- Step 6: start the Jenkins Service Persistantly
-- Step 7: Install the necessary plugins
-- Step 8: Global Tools Settings - In Jenkins Console - JAVA , MAVEN, GIT
-*******************************************************************************************************************
-- Step 1 : Install pre-requisite software packages
-
-```
-yum install java-1.8.0-openjdk-devel
-```
-
-```
-yum install vim wget  git -y
-```
-
-```
-systemctl stop firewalld;systemctl disable firewalld
-```
-
-```
-wget https://archive.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
-```
+#### Learn-Grow-Support Cancer Children
 
 
-```
-tar xvf apache-maven-3.5.4-bin.tar.gz
-```
+![Learn-Grow-Support Cancer Children](https://github.com/cloudnloud/meetup/blob/main/cnl.png)
 
-```
-mv apache-maven-3.5.4  /usr/local/apache-maven
-```
+Past 11 years Cloudnloud Cancer NGO helped many IT professionals to learn niche technologies with real-time use cases in their own lab. We strongly believe the more we fail in our own lab, the more we are confident in the real-time scenarios.
 
+### Skills: 
 
+Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization,Data,AI,Python,Ansible,Terraform,
 
-*******************************************************************************************************************
-- Step 2 : Configure environment variables
-```
-vim ~/.bash_profile
-```
+### Feel Free to engage me and Loud Better:
+👇
+- 🔭 Trying to make everyone to learn try and Fail habbit in their own LAB. 
+- 💪 Pushing Everyone to learn Confidently. 
+- 👯 Trying to make everyone to loud better from their confidence. 
+- 💬 Ask me about IT career related.
+- 💬 Ask me about OverSeas Migration Related.
+- 💬 Ask me about Any Cloud,DevOps,K8s,Data,AI useCase Related.
+- 💬 Ask me about Any Europe Jobs Related. 
+- 💬 Ask me about Any Europe Visa Sponsorship Related.
+- 💬 Ask me about Any Solution Architecture Related.
+- 😄 Pronouns: you can call me as Cloud Crusader.
+- 🙏 I’m looking for more hands in this cloudnloud Cancer NGO initiatives.
+- 🙏 Join with me on this Children Cancer NGO initiatives.
+- 📫 How to reach me: mounika@cloudnloud.com.
+- 📫 How to reach me Only Whatsapp : +91-8939984529.
 
-- In this file
-```
+### Find All Cloud/DevOps Architect Trainings Learning LAB Pre-Requisites :
+👇
+  * Refer -  https://github.com/cloudnloud/Learning-RoadMap/blob/main/pre-requisities.MD
 
-export JAVA_HOME=/usr/lib/jvm/java-1.8.0
-export JRE_HOME=/usr/lib/jvm/java-1.8.0/jre
-PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$JRE_HOME/bin
-export M2_HOME=/usr/local/apache-maven
-export M2=$M2_HOME/bin 
-export PATH=$M2:$PATH
-```
+### Find All Cloud/DevOps Architect Trainings with Step-by-Step Handson with Use cases:
+- Click below Picture 👇
 
-```
-source ~/.bash_profile
-```
+[![Watch the video](https://github.com/cloudnloud/meetup/blob/main/cover.png)](https://www.youtube.com/channel/cloudnloud)
 
-
-*******************************************************************************************************************
-
-- Check Maven Build Tool Version
-
-```
-mvn -version
-```
-
-**********************************************************************************************************************************
+<h3 align="left">Connect with Me:</h3>
+<a href="https://linkedin.com/in/vijaystack" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cloudnloud" height="30" width="40" /></a>
 
 
-- Step 3: Configure Jenkins Software Repository
-
-```
-wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
-```
-
-*******************************************************************************************************************
-- Step 4: Configure Jenkins Key
-
-```
-rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
-```
-*******************************************************************************************************************
-- Step 5: Install Jenkins
-```
-yum install jenkins -y
-```
-*******************************************************************************************************************
-- Step 6: start the Jenkins Service Persistantly
-
-```
-systemctl restart jenkins;systemctl enable jenkins;systemctl status jenkins
-```
-*******************************************************************************************************************
-
-
-http://<jenkins Server IP >:8080/
-
-[root@master java-1.8.0]# cat /var/lib/jenkins/secrets/initialAdminPassword
-9da04e163934413fbb5128977ec567bb
-
-*******************************************************************************************************************
-
-- Step 7: Install the necessary plugins
-
-The following plugins needs to be installed
-
-- dashboard view
-- Build Pipeline
-- Deploy to container
-- Email Extension Template
-*******************************************************************************************************************
-- Step 8: Global Tools Settings - In Jenkins Console - JAVA , MAVEN, GIT
+<h3 align="left">Connect with Us to know your talents:</h3>
+<p align="left">
+<a href="https://www.youtube.com/c/cloudnloud" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="cloudnloud" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/company/80359681/admin/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cloudnloud" height="30" width="40" /></a>
+<a href="https://fb.com/cloudnloudtech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="cloudnloudtech" height="30" width="40" /></a>
+<a href="https://twitter.com/cloudnloud" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="cloudnloud" height="30" width="40" /></a>
+</p>
