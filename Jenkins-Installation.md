@@ -17,7 +17,7 @@ To start this handson lab,you need following resources.
 - Step 1 : Install pre-requisite software packages
 
 ```
-yum install java-1.8.0-openjdk-devel
+yum install java-11-openjdk -y
 ```
 
 ```
