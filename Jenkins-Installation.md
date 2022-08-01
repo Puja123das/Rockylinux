@@ -52,8 +52,8 @@ vim ~/.bash_profile
 - In this file
 ```
 
-export JAVA_HOME=/usr/lib/jvm/java-1.8.0
-export JRE_HOME=/usr/lib/jvm/java-1.8.0/jre
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.el8_6.x86_64/
+export JRE_HOME=/usr/lib/jvm/jre-11-openjdk/
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$JRE_HOME/bin
 export M2_HOME=/usr/local/apache-maven
 export M2=$M2_HOME/bin 
